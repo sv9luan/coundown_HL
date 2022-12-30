@@ -1,0 +1,57 @@
+:root{
+    --bg1: #9b59b6;
+    --bg2: #3498db;
+    --text: #26ade4;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-image: url(./anh.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vh; */
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+marquee{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.item{
+    margin-right: 20px;
+    height: 120px;
+    width: 120px;
+    border: 2px solid var(--text);
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    justify-content: center;
+    color: #fff;
+}
+
+.item span {
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 12px;
+}
+
+audio{
+    width: 20px;
+}
